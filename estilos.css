@@ -1,0 +1,1848 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#body1{
+ padding: 20px;
+letter-spacing: 1px;
+background: #92C1D3;
+}
+
+
+
+/*CABECERA*/
+
+header{
+
+	max-width: 1000px;
+	min-height: 130px;
+	margin-top: 20px;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ef3817+10,ff3019+39,ef3817+61 */
+background: #ef3817; /* Old browsers */
+background: -moz-linear-gradient(top,  #ef3817 10%, #ff3019 39%, #ef3817 61%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ef3817 10%,#ff3019 39%,#ef3817 61%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ef3817 10%,#ff3019 39%,#ef3817 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3817', endColorstr='#ef3817',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#logo{
+	width: 320px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	animation: 1s entradalogo 1;
+
+}
+
+#logo img:hover{
+
+	filter: opacity(0.4);
+}
+
+#img-logo{
+
+	width: 300px;
+	height: 100px;
+}
+
+/*CABECERA*/
+
+
+
+/*MENU HORIZONTAL*/
+
+#menu-h{
+
+	max-width: 1000px;
+	min-height: 50px;
+	background: #000;
+	margin: 0 auto;
+	font-family: cursive;
+}
+
+#menu-h ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+	#menu-h a{
+
+		color: #fff;
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+		background: #000;
+		
+		font-size: 17px;
+	}
+
+
+	#menu-h ul ul{
+
+		display: none;
+		position: absolute;
+
+	}
+
+	#menu-h a:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+
+	}
+
+#menu-h ul li:hover ul {
+
+	display: block;
+
+
+
+}
+
+
+/*MENU HORIZONTAL*/
+
+
+/*trabajando con el banner*/
+
+#banner{
+
+	max-width: 1000px;
+	min-height: 250px;
+	background: #000;
+	margin: 0 auto;
+
+}
+
+#banner-1{
+
+	width: 1000px;
+	height: 300px;
+}
+/*trabajando con el banner*/
+
+
+
+
+#contenedor{
+
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+
+/*MENU VERTICAL*/
+
+
+#menu-v {
+	width: 300px;
+	min-height: 700px;
+	background: #ccc;
+	float: left;
+	font-family: cursive;
+}
+
+#menu2{
+
+	width: 18px;
+}
+
+#menu-v ul{
+	list-style: none;
+	padding: 10px;
+
+}
+
+ #menu-v a{
+	display: block;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	font-size: 17px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+
+	
+
+ }
+
+
+ #menu-v a:hover{
+	 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#727272+14,7d7e7d+48,686868+75,8e8e8e+88 */
+background: #727272; /* Old browsers */
+background: -moz-linear-gradient(top,  #727272 14%, #7d7e7d 48%, #686868 75%, #8e8e8e 88%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #727272 14%,#7d7e7d 48%,#686868 75%,#8e8e8e 88%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #727272 14%,#7d7e7d 48%,#686868 75%,#8e8e8e 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#8e8e8e',GradientType=0 ); /* IE6-9 */
+
+ } 
+
+ #menu-v a:hover img{
+		animation: 2s rotacion 1;
+
+ }
+
+
+
+/*MENU VERTICAL*/
+
+
+
+/*Contenido*/
+
+#contenido{
+
+	width: 700px;
+	min-height: 700px;
+	background: #fff;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+
+#contenido h2{
+
+	text-align: center;
+	font-family: cursive;
+	margin-bottom: 30px;
+
+}
+
+#contendio p{
+	margin-bottom: 10px;
+	font-family: cambria;
+	font-family: 18px;
+	text-align: justify;
+}
+
+.img-izq{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	padding: 5px;
+
+}
+
+/*Contenido*/
+
+
+
+/*CIERRE DE LA PAGINA INDEX.HTML*/
+
+
+
+
+
+
+
+/*PAGINA NOSOTROS*/
+
+
+/*MENU-H2 */
+
+#menu-h2{
+
+	max-width: 1600px;
+background: #000;
+font-family: cursive;
+}
+
+#menu-h2 ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+#menu-h2 a{
+
+		color: #fff;
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+		background: #000;
+		
+		font-size: 17px;
+	}
+
+
+	#menu-h2 ul ul{
+
+		display: none;
+		position: absolute;
+
+	}
+
+	#menu-h2 a:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+
+	}
+
+#menu-h2 ul li:hover ul {
+
+	display: block;
+}
+
+/*MENU-H2 */
+
+
+
+
+
+#nosotros h1{
+	
+	color: #444444;
+	font-family: cursive;
+	font-size: 30px;
+	padding: 30px;
+
+
+}
+
+#nosotros img{
+	width: 100%;
+}
+
+
+
+
+/*MISION Y VISION CLARO*/
+
+
+#claro{
+ max-width: 1200px;
+background: #CBCBCB;
+margin: 0 auto;
+margin-top: 70px;
+}
+
+#claro{
+	text-align: center;
+	padding: 10px;
+}
+
+
+#claro p{
+	color: #494A4A;
+	font-family: cambria;
+	font-size: 18px;
+}
+
+#v-m{
+	text-align: center;
+	background: #ccc;
+  float: left;
+	max-width: 800px;
+	margin-top: 20px;
+	margin-left: 75px;
+	min-height: 150px;
+	
+
+}
+
+
+
+#v-m{
+	color: #494A4A;
+	font-family: cambria;
+	font-size: 18px;
+}
+
+#m-v{
+ text-align: center;
+	max-width:670px;
+	margin-top: 20px;
+	margin-left:605px;
+	min-height: 150px;
+	background: #ccc;
+	
+}
+
+#m-v{
+	color: #494A4A;
+	font-family: cambria;
+	font-size: 18px;
+}
+
+
+/*MISION Y VISION CLARO*/
+
+
+
+
+/*VALORES CORPORATIVOS*/
+
+
+#corporativos h2{
+	margin-left: 30px;
+font-family: cursive;
+	font-size: 25px;
+	margin-top: 80px;
+	padding: 15px;
+
+}
+
+#valores{
+	height: 400px;
+	float: left;
+  margin-left: 115px;
+  margin-top: 20px;
+
+ 
+}
+
+
+#valores h2{
+	 padding: 5px;
+	 color: #AFAFAF;
+	 font-family: cursive;
+	 font-size: 18px;
+}
+
+#valores p{
+	 padding: 5px;
+	 color: #787878;
+	 font-family: cambria;
+	 font-size: 15px;
+}
+
+
+   
+/*VALORES CORPORATIVOS*/
+
+
+
+
+	/*SOBRE NOSOTROS */
+
+
+.sobre{
+	padding: 20px;
+}
+
+#sobre-nosotros{
+
+	float: left;
+margin-top: 40px;
+ border-radius: 10px;
+ padding: 20px;
+ background-color: #D9D7D7;
+ 
+
+}
+
+#sobre-nosotros h4{
+   
+   font-family: cursive;
+   font-size: 18px;
+   font-weight: bold;
+   color: #000;
+}
+
+#sobre-nosotros p{
+
+	font-family: cambria;
+	font-size: 16px;
+	color: #000;
+
+}
+
+#sobre_nosotros-two{
+
+	float: left;
+margin-top: 40px;
+ border-radius: 10px;
+  padding: 20px;
+ background-color: #D9D7D7;
+ margin-left: 60px;
+
+
+
+}
+
+
+#sobre_nosotros-two h4{
+   
+   font-family: cursive;
+   font-size: 18px;
+   font-weight: bold;
+   color: #000;
+}
+
+#sobre_nosotros-two p{
+
+	font-family: cambria;
+	font-size: 16px;
+	color: #000;
+
+}
+
+
+
+#director-claro{
+  width: 1350px;
+	 background-color: #3ED0CC ;
+	 margin-top: 200px;
+	 float: right;
+}
+
+#director-claro h2{
+	padding: 30px;
+	font-family: cursive;
+	font-size: 25px;
+
+}
+
+#director-claro p{
+
+	 padding: 30px;
+	 margin-right: 200px;
+	 float: left;
+	 font-family: cambria;
+	 font-size: 17px;
+
+ 
+
+}
+
+
+
+  	/*SOBRE NOSOTROS*/
+
+
+
+
+
+  	/*VISIÓN Y MISION CLARO*/
+
+
+
+
+#vision-claro h1{
+
+	font-family: cursive;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#vision{
+	text-align: center;
+	background: #ccc;
+  float: left;
+	max-width: 800px;
+	margin-top: 60px;
+	margin-left: 270px;
+
+
+}
+
+
+
+#vision{
+	color: #494A4A;
+	font-family: cambria;
+	font-size: 18px;
+}
+
+
+#vision img{
+
+	 width: 100%;
+	 overflow: hidden;
+}
+
+
+
+  	/*VISIÓN Y MISION CLARO*/
+
+
+/* CIERRE DE LA PAGINA NOSOTROS*/
+
+
+
+
+
+
+
+/*PAGINA SERVICOS*/
+
+
+/*SLIDER AUTOMAICO*/
+
+
+.slider{
+
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider h2{
+ font-family: cursive;
+  font-size: 25px;
+  padding: 30px;
+
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+animation: cambio 10s infinite alternate linear;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+
+}
+
+.slider img{
+	width: 100%;
+}
+
+
+/*SLIDER AUTOMAICO*/
+
+
+#servicios-moviles{
+	float: left;
+	margin-left: 110px;
+	margin-top:70px;
+}
+
+.img_servicio-claro{
+
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 80px;
+	padding: 5px;
+
+}
+.img_servicio-claro:hover{
+		animation: 2s rotacion 1;
+
+ }
+
+
+
+#servicios-moviles h2{
+
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bold;
+
+
+}
+#servicios-moviles h5{
+   
+   font-family: cambria;
+   font-size: 17px;
+	 line-height: 40px;
+}
+
+#servicios-moviles ul{
+
+	list-style: none;
+	float: left;
+	line-height: 30px;
+
+}
+#servicios-moviles a{
+	text-decoration: none;
+	color: #3B3B3B ;
+	font-family: cambria;
+   font-size: 15px;
+}
+
+
+
+
+
+
+/*SERVICIOS MOVILES, HOGAR, INTERNET-COSA*/
+
+
+
+
+
+#servicios-claro {
+
+	float: left;
+}
+
+#servicios-claro a{
+	text-decoration: none;
+	color: red;
+	font-family: cambria;
+}
+
+#servicios-claro h2{
+
+	 padding: 50px;
+	margin-top: 50px;
+}
+
+#postpago1{
+
+	width: 50px;
+	margin-top: -20px;
+	margin-left: 100px;
+
+}
+
+
+#postpago-1 {
+
+	margin-top: -30px;
+	font-family: cursive;
+	font-size: 25px;
+	margin-left: 150px;
+	color: red;
+}
+
+#postpago-1:hover{
+	text-decoration: underline;
+}
+
+
+#servicios-claro h2{
+
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#servicios-claro{
+
+	margin-left: 50px;
+	
+}
+
+
+#servicios-claro p{
+
+	font-family: cambria;
+	font-size: 17px;
+}
+
+#servicios-2{
+
+	
+	margin-left: 350px;
+	margin-top: -280px;
+}
+
+
+
+#servicios-3{
+   
+   margin-left: 700px;
+	margin-top: -280px;
+
+}
+
+
+#servicios-4{
+
+	margin-left: 1000px;
+	margin-top: -280px;
+}
+
+
+
+ /*SERVICIO HOGAR*/
+
+
+
+#servicios-claro-two {
+
+	float: left;
+}
+
+#servicios-claro-two a{
+	text-decoration: none;
+	color: red;
+	font-family: cambria;
+}
+
+#servicios-claro-two h2{
+
+	 padding: 50px;
+	margin-top: 50px;
+}
+
+#postpago2{
+
+	width: 50px;
+	margin-top: -20px;
+	margin-left: 100px;
+
+}
+
+
+#postpago-2 {
+
+	margin-top: -30px;
+	font-family: cursive;
+	font-size: 25px;
+	margin-left: 150px;
+	color: red;
+}
+
+#postpago-2:hover{
+	text-decoration: underline;
+}
+
+
+#servicios-claro-two h2{
+
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#servicios-claro-two{
+margin-left: 50px;
+	
+	
+}
+
+
+#servicios-claro-two p{
+
+	font-family: cambria;
+	font-size: 17px;
+}
+
+#servicios-two{
+
+	
+	margin-left: 280px;
+	margin-top: -100px;
+}
+
+
+
+#servicios-three{
+   
+   margin-left: 340px;
+	margin-top: -328px;
+
+}
+
+
+#servicios-four{
+
+	margin-left: 680px;
+	margin-top: -325px;
+}
+
+
+#servicios-5{
+
+	margin-top: -330px;
+	margin-left: 1000px;
+}
+
+
+
+
+  /*SERVICIO HOGAR*/
+
+
+
+#cambiazo{
+
+
+	margin-left: 300px;
+	margin-top: -100px;
+}
+
+#img-2{
+ margin-top: -100px;
+ margin-left: 300px;
+ width: 60px;
+
+
+}
+
+#cambiazo h4{
+
+	font-family: cursive;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+#cambiazo p{
+   margin-top: -5px;
+	margin-left: 200px;
+
+}
+
+/*SERVICIO HOGAR*/
+
+
+
+/*INTERNET DE LAS COSAS */
+
+
+
+
+
+#servicios-hogar-1{
+margin-left: 200px;
+
+	
+	
+}
+
+#servicios-hogar-1 h2{
+
+	font-family: cursive;
+	font-size: 25px;
+	padding: 20px;
+}
+
+
+#servicios-hogar-1 p{
+
+	font-family: cambria;
+	font-size: 17px;
+	margin-left: 70px;
+
+}
+
+#servicios-hogar-1 {
+margin-left: 150px;
+margin-top: 100px;
+	
+}
+
+
+
+#servicios-hogar-2{
+   
+   margin-left: 700px;
+   margin-top: -270px;
+
+
+}
+
+
+
+#director-claro{
+  width: 1350px;
+	 background-color: #3ED0CC ;
+	 margin-top: 200px;
+	 float: right;
+}
+
+#director-claro h2{
+	padding: 30px;
+	font-family: cursive;
+	font-size: 25px;
+
+}
+
+#director-claro p{
+
+	 padding: 30px;
+	 margin-right: 200px;
+	 float: left;
+	 font-family: cambria;
+	 font-size: 17px;
+
+ 
+
+}
+
+
+
+
+/*SERVICIOS MOVILES, HOGAR, INTERNET-COSA*/
+
+
+
+
+/* CIRRE DE LA PAGINA SERVICOS*/
+
+
+
+
+/*PAGINA PRODUCTOS*/
+
+#productos{
+
+	float: left;
+margin-left: 80px;
+	padding: 20px;	
+	
+}
+
+
+#productos img{
+
+	width: 100px;
+
+}
+
+
+
+#productos-2{
+
+float: left;
+margin-left: 60px;
+	
+	margin-top:30px;
+
+}
+
+#productos-2 img{
+
+	width: 100px;
+}
+
+#productos-3{
+
+
+float: left;
+margin-left: 50px;
+	
+	margin-top: 40px;
+}
+
+
+#productos-3 img{
+
+	width: 100px;
+
+}
+
+#productos-4{
+
+	float: left;
+margin-left: 110px;
+	margin-top: 40px;
+}
+
+
+#productos-4 img{
+
+	width: 100px;
+
+}
+
+#productos-5{
+
+
+float: left;
+margin-left: 80px;
+	padding: 20px;
+	
+
+}
+
+#productos-5 img{
+
+	width: 100px;
+
+}
+
+#productos-6{
+
+
+float: left;
+margin-left: 80px;
+	padding: 20px;	
+	margin-top: -200px;
+	
+
+}
+
+
+#productos-6 img{
+
+	width: 100px;
+
+}
+
+
+#productos-7{
+
+
+float: left;
+margin-left: 80px;
+	padding: 20px;	
+	margin-top: -200px;
+	
+
+}
+
+
+#productos-7 img{
+
+	width: 100px;
+
+}
+
+#productos-8{
+
+
+float: left;
+margin-left: 80px;
+	padding: 20px;	
+	margin-top: -200px;
+	
+
+}
+
+
+#productos-8 img{
+
+	width: 100px;
+
+}
+
+
+
+
+
+/*CIERRE DE LA PAGINA PRODUCTOS*/
+
+
+
+
+
+
+
+
+
+/*PAGINA OFERTAS*/
+
+
+
+#ofertas{
+
+	width: 700px;
+background: #fff;
+padding: 15px;
+
+}
+
+#ofertas h2{
+
+	
+	font-family: cursive;
+	margin-bottom: 30px;
+	margin-top: 40px;
+
+}
+
+#ofertas p{
+	margin-bottom: 10px;
+	font-family: cambria;
+	font-family: 18px;
+	text-align: justify;
+	margin-top: 40px;
+	
+}
+
+.img{
+	float: left;
+	margin-bottom: 10px;
+	width: 100px;
+	padding: 5px;
+
+}
+
+
+#ofertas-2{
+
+	margin-left: 500px;
+	margin-top: -235px;
+}
+
+
+#ofertas-2 h2{
+
+	font-family: cursive;
+	margin-bottom: 30px;
+	
+
+}
+
+
+#ofertas-2 p{
+
+
+	margin-bottom: 10px;
+	font-family: cambria;
+	font-family: 18px;
+	text-align: justify;
+	margin-top: 30px;
+
+}
+
+.img-2{
+
+  float: left;
+ margin-bottom: 10px;
+	width: 150px;
+	padding: 5px;
+	margin-top: -30px;
+
+
+}
+
+
+#ofertas-3{
+  margin-left: 900px;
+	margin-top: -260px;
+
+}
+
+
+#ofertas-3 h2{
+
+	font-family: cursive;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	
+
+}
+
+#ofertas-3 p{
+
+
+	margin-bottom: 10px;
+	font-family: cambria;
+	font-family: 18px;
+	text-align: justify;
+	margin-top: 30px;
+
+}
+
+.img-2{
+
+  float: left;
+ margin-bottom: 10px;
+	width: 150px;
+	padding: 5px;
+	margin-top: -30px;
+
+
+}
+
+
+/*CIERRE DE LA PAGINA OFERTAS*/
+
+
+
+
+
+ /*PAGINA OFERTAS*/
+
+
+
+
+ #consulta{
+
+position: absolute;
+
+
+}
+
+
+#consulta-oferta h1{
+	
+	padding: 30px;
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#consulta-oferta{
+
+ line-height: 50px;
+ padding:40px;
+ 
+
+}
+
+
+
+#consulta-oferta a{
+
+	text-decoration: none;
+	color:#1FBAE1;
+}
+
+
+#consulta-oferta ul{
+
+	color: red;
+	font-family: cambria;
+	font-size: 18px;
+
+}
+
+#garantia-2{
+	margin-left: 740px;
+	 line-height: 50px;
+	 margin-top: -680px;
+}
+
+
+
+#garantia-2 ul {
+color: red;
+	font-family: cambria;
+	font-size: 18px;
+	 
+	
+
+}
+
+#garantia-2 a{
+
+	text-decoration: none;
+	color: #1FBAE1;
+
+}
+
+
+/*CIERRE PPAGINA GARANTIA*/
+
+
+/*PAGINA CONTACTANOS*/
+
+
+
+
+/*TEXTO-ENCIMA DE LA IMG*/
+
+
+
+.servicio-cliente{
+		 
+		display: flex;
+		color: #fff;
+		font-family: cursive;
+}
+
+.texto-encima{
+		position: absolute;
+		font-size: 25px;
+	 margin-left: 500px;
+	 padding-top: 180px;
+
+}
+
+/*TEXTO-ENCIMA DE LA IMG*/
+
+
+
+
+/*BUSCADOR*/
+
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+input.src{
+	padding: 9px 10px 9px 32px;
+	outline: none;
+	font-size: 18px;
+	border-radius: 15px;
+	color:  #F04B49 ;
+	border: 3px solid #000;
+	background: #fff  url(img/buscar.png)
+	 no-repeat 9px center;
+width: 60px;
+ transition: all .5s;
+
+}
+
+input.src:hover{
+width: 250px;
+	background-color:#fff;
+	border-color: #000;
+	box-shadow: 0 0 5px #6dcff680;
+
+}
+
+
+/*BUSCADOR*/
+
+
+
+
+/*home*/
+
+#home p {
+ 
+	margin: 40px;
+	font-family: cursive;
+	font-size: 20px;
+
+
+}
+
+#home a{
+	text-decoration: none;
+	color:#909090 ;
+
+}
+
+#home h1{
+ margin-left: 70px;
+ color: #6F6D6D ;
+}
+
+#home hr{
+	width: 95%;
+	border: 2px solid #1E1C1C ;
+	margin: 0 auto; 
+}
+
+/*home*/
+
+
+
+
+/*CUADROS DE SERVICIO*/
+
+
+#cuadro p{
+	text-align: center;
+	color: #fff;
+	width: 200px;
+ height: 80px;
+	float: left;
+	border: 1px solid #000 ;
+	margin-left: 50px;
+	font-size: 16px;
+	padding: 20px;
+	border-radius: 4px;
+	margin-right: 10px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+}
+
+#cuadro-2 p{
+
+	text-align: center;
+	color: #fff;
+	width: 210px;
+ height: 60px;
+	float: left;
+	border: 1px solid #000 ;
+	margin-left: 45px;
+	font-size: 16px;
+	padding: 20px;
+	border-radius: 4px;
+	margin-right: 10px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+
+}
+
+#cuadro-3 p{
+	 
+	 text-align: center;
+	color: #fff;
+	width: 570px;
+ height: 60px;
+	float: left;
+	border: 1px solid #000 ;
+	margin-left: 45px;
+	font-size: 16px;
+	padding: 20px;
+	border-radius: 2px;
+	margin: 45px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7566+21,ff6156+36,ff5e4c+83,ff503d+87 */
+background: #ff7566; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff7566 21%, #ff6156 36%, #ff5e4c 83%, #ff503d 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff7566 21%,#ff6156 36%,#ff5e4c 83%,#ff503d 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7566', endColorstr='#ff503d',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+/*CUADROS DE SERVICIO*/
+
+
+
+
+/*CONSULTAS*/
+
+
+#consulta{
+
+position: absolute;
+
+
+}
+
+
+#consulta h1{
+	margin-top: 60px;
+	padding: 30px;
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#consulta{
+
+ margin-top:380px;
+ line-height: 50px;
+ padding:40px;
+ 
+
+}
+
+
+
+#consulta a{
+
+	text-decoration: none;
+	color:#1FBAE1;
+}
+
+
+#consulta ul{
+
+	color: red;
+	font-family: cambria;
+	font-size: 18px;
+
+}
+
+#consulta-2{
+	margin-top: 590px;
+	margin-left: 750px;
+	 line-height: 50px;
+}
+
+
+
+#consulta-2 ul {
+color: red;
+	font-family: cambria;
+	font-size: 18px;
+	 
+	
+
+}
+
+#consulta-2 a{
+
+	text-decoration: none;
+	color: #1FBAE1;
+
+}
+
+
+
+
+#consulta li:hover{
+
+		text-decoration: underline;
+	
+}
+
+
+#consulta-2 li:hover{
+
+text-decoration: underline;
+
+}
+
+/*CONSULTAS*/
+
+
+
+
+/*FORMULARIO DE REGISTRO*/
+
+
+
+
+.form-register{
+	width: 500px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+	font-family: cambria;
+	color:#A7A7A7 ;
+	
+
+}
+
+.form-register p{
+	line-height: 35px;
+	font-family: cambria;
+	font-size: 19px;
+	color:#A7A7A7 ;
+
+}
+
+
+.controls{
+	width: 100%;
+  padding: 10px;
+margin-bottom: 16px;
+	
+	font-family: cambria;
+	font-size: 18px;
+   color: red;
+
+}
+
+.controls:hover{
+	border: 1px solid #069;
+}
+
+
+.font-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 19px;
+	line-height: 40px;
+
+}
+.form-register a{
+	color: #69CFFF  ;
+	text-decoration: none;
+	
+}
+.form-register a:hover{
+	color:#069;
+	
+
+}
+.form-register .botons{
+	width: 100%;
+	background: #59C7FA ;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+
+}
+
+.botons{
+
+	font-family: cursive;
+	font-size: 25px;
+}
+
+
+
+/*FORMULARIO DE REGISTRO*/
+
+
+
+
+
+
+/* CIERRE DE LA PAGINA CONTACTANOS*/
+
+
+
+
+/*Pie de pagina*/
+
+
+#Pie_Pagina-1{
+	 
+	max-width: 1000px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: cambria;
+	font-family: 18px;
+}
+
+
+.social-links a{
+	
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:#ffffff;
+	transition: all 0.5 ease;
+	margin-top: 20px;
+
+}
+
+
+
+#facebook-twitter:hover{
+	color: #069;
+	background-color: #FFFFFF;
+}
+#instagram-youtube:hover{
+
+	  color: red;
+	  background-color: #FFFFFF;
+	  
+
+
+}
+
+
+
+#Pie_Pagina-2{
+	 
+	max-width: 1600px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: cambria;
+	font-family: 18px;
+	margin-top: 50px;
+
+}
+
+
+ .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	border-radius: 50%;
+	color:#ffffff;
+	transition: all 0.5 ease;
+	margin-top: 20px;
+
+}
+
+
+}
+
+#facebook-twitter:hover{
+	color: #069;
+	background-color: #ffffff;
+
+}
+
+
+#Pie_Pagina-3{
+	 
+	max-width: 1600px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	font-family: cambria;
+	font-family: 18px;
+	margin-top: 660px;
+
+}
+
+#Pie_Pagina-4{
+	 
+	max-width: 1600px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	font-family: cambria;
+	font-family: 18px;
+	margin-top: 400px;
+
+}
+
+
+/*Pie de pagina*/
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+
+	0%{
+
+		transform: translateY(200px);
+	}
+}
+
+ @keyframes rotacion{
+
+	0%{
+		transform:rotate(270deg);
+	}
+
+ }
+ @keyframes cambio{
+   
+   0%{margin-left: 0;}
+   20%{margin-left: 0;}
+   	
+   25%{ margin-left: -100%;}
+   45%{ margin-left: -100%;}
+
+   50%{ margin-left: -200%;}
+   70%{ margin-left: -200%;}
+
+   75%{ margin-left: -300%;}
+   100%{ margin-left: -300%;}
+}
